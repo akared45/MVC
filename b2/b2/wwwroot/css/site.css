@@ -1,0 +1,145 @@
+﻿:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, var(--primary-color), #4e73df) !important;
+}
+
+.product-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15) !important;
+    }
+
+.product-image-placeholder {
+    height: 200px;
+    background: linear-gradient(135deg, var(--primary-color), #4e73df);
+    border-radius: 0;
+}
+
+.card-img-container {
+    overflow: hidden;
+}
+
+.hero-section {
+    border-radius: 0 0 20px 20px;
+}
+
+.rating {
+    font-size: 0.9rem;
+}
+
+.product-detail-image {
+    height: 100%;
+    min-height: 400px;
+    background: linear-gradient(135deg, var(--primary-color), #4e73df);
+}
+
+.breadcrumb {
+    padding: 0.75rem 1rem;
+    background-color: var(--light-color);
+    border-radius: 0.375rem;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+.input-group .btn {
+    border-radius: 0;
+}
+
+.input-group .form-control {
+    border-radius: 0;
+}
+
+.input-group > :first-child {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.input-group > :last-child {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+footer a:hover {
+    color: var(--info-color) !important;
+    text-decoration: underline;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn-primary {
+    animation: pulse 2s infinite;
+}
+
+    .btn-primary:hover {
+        animation: none;
+    }
+
+@media (max-width: 768px) {
+    .hero-section .display-4 {
+        font-size: 2rem;
+    }
+
+    .product-detail-image {
+        min-height: 300px;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
