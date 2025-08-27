@@ -1,0 +1,36 @@
+﻿@model List<HW3.Models.Student>
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<div class="container">
+    <h1>Danh sách sinh viên Aptech</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Điện thoại</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.Name</td>
+                    <td>@student.Email</td>
+                    <td>@student.Phone</td>
+                    <td>
+                        <a href="/aptech/student/@student.Id" class="btn btn-info btn-sm">Chi tiết</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="/aptech" class="btn btn-secondary">Quay lại</a>
+</div>

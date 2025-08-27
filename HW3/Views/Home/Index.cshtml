@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Thông tin Aptech";
+}
+
+<div class="container">
+    <h1>Thông tin Trường Aptech</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Địa chỉ</h5>
+            <p class="card-text">@ViewData["Address"]</p>
+
+            <h5 class="card-title">Điện thoại</h5>
+            <p class="card-text">@ViewData["Phone"]</p>
+
+            <h5 class="card-title">Email</h5>
+            <p class="card-text">@ViewData["Email"]</p>
+        </div>
+    </div>
+
+    <a href="/aptech/student" class="btn btn-primary mt-3">Xem danh sách sinh viên</a>
+</div>
