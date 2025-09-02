@@ -1,0 +1,32 @@
+﻿@model HW4.Models.Movie
+@{
+    ViewBag.Title = "Movie details: " + Model.Title;
+}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@Model.ImageUrl" class="img-fluid rounded" alt="@Model.Title">
+        </div>
+        <div class="col-md-8">
+            <h1>@Model.Title</h1>
+            <p class="lead">@Model.ShortDescription</p>
+            <p><strong>Director:</strong> @Model.Director</p>
+            <p><strong>Ticket Price:</strong> $@Model.Price</p>
+
+            <h4>Full Description</h4>
+            <p>@Model.FullDescription</p>
+
+            <div class="mt-4">
+                <h4>Trailer</h4>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="@Model.TrailerUrl" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <a href="@Model.WatchUrl" class="btn btn-success mr-2">Watch movies</a>
+                @Html.ActionLink("Return to home page", "Index", null, new { @class = "btn btn-secondary" })
+            </div>
+        </div>
+    </div>
+</div>

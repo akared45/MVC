@@ -1,0 +1,27 @@
+﻿@model List<HW4.Models.Movie>
+@{
+    ViewBag.Title = "Home -  List movies";
+}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Movie List</h1>
+
+    <div class="row">
+        @foreach (var movie in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@movie.ImageUrl" class="card-img-top" alt="@movie.Title" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@movie.Title</h5>
+                        <p class="card-text">@movie.ShortDescription</p>
+                        <p class="card-text"><strong>Director:</strong> @movie.Director</p>
+                        <p class="card-text"><strong>Price:</strong> $@movie.Price</p>
+                    </div>
+                    <div class="card-footer">
+                        @Html.ActionLink("View details", "Details", new { id = movie.Id }, new { @class = "btn btn-primary" })
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
