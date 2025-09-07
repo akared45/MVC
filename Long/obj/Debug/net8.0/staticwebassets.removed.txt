@@ -1,0 +1,2 @@
+C:\Users\vinhl\source\repos\Long\Long\wwwroot\css\style.css
+C:\Users\vinhl\source\repos\Long\Long\wwwroot\js\script.js

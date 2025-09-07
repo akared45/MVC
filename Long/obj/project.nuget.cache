@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AU0/dp8rKec=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinhl\\source\\repos\\Long\\Long\\Long.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinhl\\.nuget\\packages\\bogus\\35.6.3\\bogus.35.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

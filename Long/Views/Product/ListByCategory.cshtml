@@ -1,0 +1,25 @@
+﻿@model List<Long.Models.Product>
+
+@{
+    ViewBag.Title = "Danh Sách " + ViewBag.CategoryName;
+}
+<h2>Danh Sách @ViewBag.CategoryName</h2>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">Giá: @product.Price.ToString("N0") VND</p>
+                    <p class="card-text">@product.Description.Substring(0, Math.Min(100, product.Description.Length))...</p>
+                    <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="btn btn-primary">Chi Tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Quay Lại Trang Chủ</a>
