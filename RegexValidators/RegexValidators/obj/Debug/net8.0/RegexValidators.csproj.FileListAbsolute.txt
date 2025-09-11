@@ -1,0 +1,11 @@
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\bin\Debug\net8.0\RegexValidators.deps.json
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\bin\Debug\net8.0\RegexValidators.dll
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\bin\Debug\net8.0\RegexValidators.pdb
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.AssemblyInfoInputs.cache
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.AssemblyInfo.cs
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.csproj.CoreCompileInputs.cache
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.dll
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\refint\RegexValidators.dll
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\RegexValidators.pdb
+C:\Users\vinhl\source\repos\RegexValidators\RegexValidators\obj\Debug\net8.0\ref\RegexValidators.dll
