@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhl\\source\\repos\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\models\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\models\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\borrow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\data\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|c:\\users\\vinhl\\source\\repos\\library\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA71FB73-D8BA-4028-A69E-9878FB20AAEE}|Library\\Library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Library\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:14:21.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Category.cs",
+              "RelativeToolTip": "Library\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:26:21.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T13:57:56.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Library\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:34:21.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:08:45.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Borrow.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Borrow.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Borrow.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Borrow.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Borrow.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:13:36.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Book.cs",
+              "RelativeToolTip": "Library\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:27:09.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:09:06.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Borrow.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Borrow.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\Borrow.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Models\\Borrow.cs",
+              "RelativeToolTip": "Library\\Models\\Borrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:28:23.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Library\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:14:59.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Library\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:15:15.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Library\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:14:43.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T13:57:18.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Library\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:00:31.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Data\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "Library\\Data\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Data\\LibraryContext.cs",
+              "RelativeToolTip": "Library\\Data\\LibraryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:30:02.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Library\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Library\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:51:25.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\appsettings.json",
+              "RelativeDocumentMoniker": "Library\\appsettings.json",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\appsettings.json",
+              "RelativeToolTip": "Library\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T13:20:10.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Program.cs",
+              "RelativeDocumentMoniker": "Library\\Program.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Program.cs",
+              "RelativeToolTip": "Library\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T13:23:42.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Library\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:16:42.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Library\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAADNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:16:15.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Library\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Library\\Library\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Library\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T14:45:16.489Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
