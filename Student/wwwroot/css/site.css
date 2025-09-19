@@ -1,0 +1,194 @@
+﻿:root {
+    --primary-color: #4e73df;
+    --secondary-color: #858796;
+    --success-color: #1cc88a;
+    --info-color: #36b9cc;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --light-bg: #f8f9fc;
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, var(--primary-color) 0%, #2a3e9d 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 1.5rem;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 2rem 0 rgba(58, 59, 69, 0.2);
+    }
+
+.card-header {
+    background: linear-gradient(180deg, #fff 0%, #f8f9fc 100%);
+    border-bottom: 1px solid #e3e6f0;
+    font-weight: 700;
+    padding: 1rem 1.35rem;
+}
+
+.stat-card {
+    border-left: 4px solid;
+    overflow: hidden;
+}
+
+    .stat-card.primary {
+        border-left-color: var(--primary-color);
+    }
+
+    .stat-card.success {
+        border-left-color: var(--success-color);
+    }
+
+    .stat-card.info {
+        border-left-color: var(--info-color);
+    }
+
+    .stat-card.warning {
+        border-left-color: var(--warning-color);
+    }
+
+.table-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    overflow: hidden;
+}
+
+table {
+    margin-bottom: 0;
+}
+
+thead {
+    background: linear-gradient(90deg, var(--primary-color) 0%, #2a3e9d 100%);
+    color: white;
+}
+
+th {
+    font-weight: 600;
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+td {
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
+
+.student-info {
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+}
+
+.actions i {
+    cursor: pointer;
+    transition: color 0.2s;
+    margin: 0 5px;
+}
+
+.actions .fa-edit:hover {
+    color: var(--info-color);
+}
+
+.actions .fa-trash:hover {
+    color: var(--danger-color);
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary-color) 0%, #2a3e9d 100%);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+.average-badge {
+    background-color: var(--success-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.highlight {
+    animation: highlight 2s ease;
+}
+
+@keyframes highlight {
+    0% {
+        background-color: rgba(78, 115, 223, 0.2);
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 992px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .stat-card {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 8px 10px;
+    }
+
+    .student-name {
+        font-size: 0.9rem;
+    }
+
+    .student-info {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .table-container {
+        border-radius: 5px;
+    }
+
+    .actions i {
+        margin: 0 3px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
