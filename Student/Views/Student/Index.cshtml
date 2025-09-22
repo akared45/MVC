@@ -1,0 +1,281 @@
+﻿@{
+    ViewData["Title"] = "Student Marks Management";
+}
+
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-graduation-cap me-2"></i>
+                Student Management System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user-circle me-1"></i> Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Student Marks Management</h1>
+            <button class="btn btn-primary d-none d-sm-inline-block">
+                <i class="fas fa-plus fa-sm text-white-50 me-1"></i> Add Student
+            </button>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card stat-card primary h-100">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                    Total Students</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">142</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-users fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card stat-card success h-100">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                    Average Score</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">84.2%</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-chart-line fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card stat-card info h-100">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                    Top Student</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">95.6%</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-trophy fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card stat-card warning h-100">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <div class="row align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                    Low Scores</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">12 Students</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-exclamation-triangle fa-2x text-gray-300"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Table -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Student Marks Overview</h6>
+                <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" 
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end shadow animated--fade-in">
+                        <li><a class="dropdown-item" href="#">Export to Excel</a></li>
+                        <li><a class="dropdown-item" href="#">Print Report</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Refresh Data</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover" id="studentTable">
+                        <thead>
+                            <tr>
+                                <th>STUDENT</th>
+                                <th>MATH</th>
+                                <th>SCIENCE</th>
+                                <th>ENGLISH</th>
+                                <th>HISTORY</th>
+                                <th>ART</th>
+                                <th>AVERAGE</th>
+                                <th>ACTIONS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="highlight">
+                                <td>
+                                    <div class="student-name">John Smith</div>
+                                    <div class="student-info">Grade ID - Class A</div>
+                                </td>
+                                <td>92</td>
+                                <td>70</td>
+                                <td>80</td>
+                                <td>99</td>
+                                <td>87.6</td>
+                                <td><span class="average-badge">87.6</span></td>
+                                <td class="actions">
+                                    <i class="fas fa-edit text-primary"></i>
+                                    <i class="fas fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="student-name">Emma Johnson</div>
+                                    <div class="student-info">Grade ID - Class B</div>
+                                </td>
+                                <td>90</td>
+                                <td>87</td>
+                                <td>93</td>
+                                <td>85</td>
+                                <td>89</td>
+                                <td><span class="average-badge">88.8</span></td>
+                                <td class="actions">
+                                    <i class="fas fa-edit text-primary"></i>
+                                    <i class="fas fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="student-name">Michael Brown</div>
+                                    <div class="student-info">Grade 9 - Class A</div>
+                                </td>
+                                <td>76</td>
+                                <td>82</td>
+                                <td>79</td>
+                                <td>85</td>
+                                <td>80</td>
+                                <td><span class="average-badge">80.4</span></td>
+                                <td class="actions">
+                                    <i class="fas fa-edit text-primary"></i>
+                                    <i class="fas fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="student-name">Sarah Davis</div>
+                                    <div class="student-info">Grade I - Class C</div>
+                                </td>
+                                <td>94</td>
+                                <td>89</td>
+                                <td>91</td>
+                                <td>87</td>
+                                <td>93</td>
+                                <td><span class="average-badge">90.8</span></td>
+                                <td class="actions">
+                                    <i class="fas fa-edit text-primary"></i>
+                                    <i class="fas fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="student-name">Robert Wilson</div>
+                                    <div class="student-info">Grade II - Class B</div>
+                                </td>
+                                <td>88</td>
+                                <td>95</td>
+                                <td>87</td>
+                                <td>90</td>
+                                <td>85</td>
+                                <td><span class="average-badge">89.0</span></td>
+                                <td class="actions">
+                                    <i class="fas fa-edit text-primary"></i>
+                                    <i class="fas fa-trash text-danger"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Pagination -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="text-muted">Showing 1 to 5 of 25 results</div>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">Previous</a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tableRows = document.querySelectorAll('#studentTable tbody tr');
+            
+            tableRows.forEach((row, index) => {
+                row.style.transition = 'all 0.5s ease';
+                row.style.opacity = '0';
+                row.style.transform = 'translateX(-20px)';
+                
+                setTimeout(() => {
+                    row.style.opacity = '1';
+                    row.style.transform = 'translateX(0)';
+                }, 100 * index);
+            });
+
+            tableRows.forEach(row => {
+                row.addEventListener('mouseenter', () => {
+                    row.style.backgroundColor = '#f2f5ff';
+                });
+                
+                row.addEventListener('mouseleave', () => {
+                    if (!row.classList.contains('highlight')) {
+                        row.style.backgroundColor = '';
+                    }
+                });
+            });
+        });
+    </script>
