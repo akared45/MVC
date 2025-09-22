@@ -1,0 +1,56 @@
+﻿@model Student_DB.Models.Student
+
+@{
+    ViewData["Title"] = "Create Student";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GradeClass" class="control-label"></label>
+        <input asp-for="GradeClass" class="form-control" required />
+        <span asp-validation-for="GradeClass" class="text-danger"></span>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">Math</label>
+                <input type="number" name="Math" class="form-control" min="0" max="100" required />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">Science</label>
+                <input type="number" name="Science" class="form-control" min="0" max="100" required />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">English</label>
+                <input type="number" name="English" class="form-control" min="0" max="100" required />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">History</label>
+                <input type="number" name="History" class="form-control" min="0" max="100" required />
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label class="control-label">Art</label>
+                <input type="number" name="Art" class="form-control" min="0" max="100" required />
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>

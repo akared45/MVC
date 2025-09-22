@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|c:\\users\\vinhl\\source\\repos\\student_db\\student_db\\student_db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0643CD8A-AF08-40A5-AFAA-88FF0C6254B6}|Student_DB\\Student_DB.csproj|solutionrelative:student_db\\student_db.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Score.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Models\\Score.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Score.cs",
+              "RelativeToolTip": "Student_DB\\Models\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T00:16:57.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Program.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Program.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Program.cs",
+              "RelativeToolTip": "Student_DB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:58:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\appsettings.json",
+              "RelativeDocumentMoniker": "Student_DB\\appsettings.json",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\appsettings.json",
+              "RelativeToolTip": "Student_DB\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-21T00:25:22.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Student.cs",
+              "RelativeToolTip": "Student_DB\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T00:05:31.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Student_DB\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T13:07:19.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:12:05.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAwwM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:11:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:16:15.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Models\\Subject.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Models\\Subject.cs",
+              "RelativeToolTip": "Student_DB\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T00:08:06.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:41:45.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:39:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Student_DB\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Student_DB\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-22T13:16:25.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Data\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "Student_DB\\Data\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Data\\StudentDbContext.cs",
+              "RelativeToolTip": "Student_DB\\Data\\StudentDbContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswCsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:26:52.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Student_DB.csproj",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Student_DB.csproj",
+              "RelativeDocumentMoniker": "Student_DB\\Student_DB.csproj",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\Student_DB\\Student_DB\\Student_DB.csproj",
+              "RelativeToolTip": "Student_DB\\Student_DB.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-21T00:19:00.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

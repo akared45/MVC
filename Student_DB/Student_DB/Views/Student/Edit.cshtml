@@ -1,0 +1,107 @@
+﻿@model Student_DB.Models.Student
+
+@{
+    ViewData["Title"] = "Edit Student";
+    var math = ViewBag.Math ?? 0;
+    var science = ViewBag.Science ?? 0;
+    var english = ViewBag.English ?? 0;
+    var history = ViewBag.History ?? 0;
+    var art = ViewBag.Art ?? 0;
+}
+
+<div class="container">
+    <h1>Edit Student</h1>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+
+        <input type="hidden" name="StudentId" value="@Model.StudentId" />
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Name" class="control-label">Student Name</label>
+                    <input type="text" id="Name" name="Name" class="form-control"
+                           value="@Model.Name" required />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="GradeClass" class="control-label">Grade - Class</label>
+                    <input type="text" id="GradeClass" name="GradeClass" class="form-control"
+                           value="@Model.GradeClass" required />
+                </div>
+            </div>
+        </div>
+
+        <h4 class="mt-4">Marks</h4>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="Math" class="control-label">Math</label>
+                    <input type="number" id="Math" name="Math" class="form-control"
+                           min="0" max="100" value="@math" required />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="Science" class="control-label">Science</label>
+                    <input type="number" id="Science" name="Science" class="form-control"
+                           min="0" max="100" value="@science" required />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="English" class="control-label">English</label>
+                    <input type="number" id="English" name="English" class="form-control"
+                           min="0" max="100" value="@english" required />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="History" class="control-label">History</label>
+                    <input type="number" id="History" name="History" class="form-control"
+                           min="0" max="100" value="@history" required />
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label for="Art" class="control-label">Art</label>
+                    <input type="number" id="Art" name="Art" class="form-control"
+                           min="0" max="100" value="@art" required />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mt-4">
+            <button type="submit" class="btn btn-primary">Update Student</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        // Validate marks range
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const marks = document.querySelectorAll('input[type="number"]');
+            let valid = true;
+
+            marks.forEach(input => {
+                if (input.value < 0 || input.value > 100) {
+                    alert('Marks must be between 0 and 100');
+                    valid = false;
+                }
+            });
+
+            if (!valid) {
+                e.preventDefault();
+            }
+        });
+    </script>
+}
