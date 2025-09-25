@@ -1,0 +1,20 @@
+1_Model_Template.cs
+using System.ComponentModel.DataAnnotations;
+
+namespace YourApp.Models
+{
+    public class YourModel
+    {
+        public int Id { get; set; }
+        
+        [Required(ErrorMessage = "This field is required")]
+        [StringLength(100, ErrorMessage = "Maximum 100 characters")]
+        public string Name { get; set; }
+        
+        // ADD YOUR PROPERTIES HERE
+        // Example:
+        // public string Description { get; set; }
+        // public DateTime CreatedDate { get; set; }
+        // public int CategoryId { get; set; }
+    }
+}

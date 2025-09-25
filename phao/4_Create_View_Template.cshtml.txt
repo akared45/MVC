@@ -1,0 +1,35 @@
+4_Create_View_Template.cshtml
+@model YourModel
+
+@{
+    ViewData["Title"] = "Create New";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    
+    <form asp-action="Create" method="post">
+        @Html.AntiForgeryToken()
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                
+                <!-- ADD MORE FORM FIELDS HERE -->
+                
+                <div class="form-group mt-4">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

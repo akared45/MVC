@@ -1,0 +1,144 @@
+2_Controller_Template.cs
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using YourApp.Models;
+using YourApp.Data;
+
+namespace YourApp.Controllers
+{
+    public class YourController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public YourController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: INDEX with Sort + Page + Search + Filter
+        public IActionResult Index(string sortOrder, int page = 1, int pageSize = 10, 
+                                  string searchString = "", string filterValue = "")
+        {
+            SetSortViewBag(sortOrder);
+            var query = _context.YourModel.AsQueryable();
+            
+            query = ApplySearch(query, searchString);
+            query = ApplyFilter(query, filterValue);
+            query = ApplySorting(query, sortOrder);
+            
+            var pagedList = ApplyPagination(query, page, pageSize);
+            SetViewBagData(searchString, filterValue, page, pageSize, query.Count());
+            
+            return View(pagedList);
+        }
+
+        // GET: CREATE
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: CREATE
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(YourModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(model);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        // GET: EDIT
+        public IActionResult Edit(int id)
+        {
+            var model = _context.YourModel.Find(id);
+            return model == null ? NotFound() : View(model);
+        }
+
+        // POST: EDIT
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, YourModel model)
+        {
+            if (id != model.Id) return NotFound();
+            
+            if (ModelState.IsValid)
+            {
+                _context.Update(model);
+                _context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        // GET: DELETE
+        public IActionResult Delete(int id)
+        {
+            var model = _context.YourModel.Find(id);
+            return model == null ? NotFound() : View(model);
+        }
+
+        // POST: DELETE
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var model = _context.YourModel.Find(id);
+            if (model != null)
+            {
+                _context.YourModel.Remove(model);
+                _context.SaveChanges();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        // ========== HELPER METHODS ==========
+        private void SetSortViewBag(string sortOrder)
+        {
+            ViewBag.NameSort = sortOrder == "name_desc" ? "name" : "name_desc";
+            ViewBag.CurrentSort = sortOrder;
+        }
+
+        private IQueryable<YourModel> ApplySearch(IQueryable<YourModel> query, string searchString)
+        {
+            if (!string.IsNullOrEmpty(searchString))
+                return query.Where(x => x.Name.Contains(searchString));
+            return query;
+        }
+
+        private IQueryable<YourModel> ApplyFilter(IQueryable<YourModel> query, string filterValue)
+        {
+            // CUSTOMIZE FILTER LOGIC HERE
+            if (!string.IsNullOrEmpty(filterValue))
+                return query.Where(x => x.Name == filterValue);
+            return query;
+        }
+
+        private IQueryable<YourModel> ApplySorting(IQueryable<YourModel> query, string sortOrder)
+        {
+            return sortOrder switch
+            {
+                "name_desc" => query.OrderByDescending(x => x.Name),
+                "name" => query.OrderBy(x => x.Name),
+                _ => query.OrderBy(x => x.Id)
+            };
+        }
+
+        private List<YourModel> ApplyPagination(IQueryable<YourModel> query, int page, int pageSize)
+        {
+            return query.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+        }
+
+        private void SetViewBagData(string search, string filter, int page, int pageSize, int totalItems)
+        {
+            ViewBag.SearchString = search;
+            ViewBag.FilterValue = filter;
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+        }
+    }
+}
