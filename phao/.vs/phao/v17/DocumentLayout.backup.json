@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhl\\source\\repos\\phao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\enrollments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\enrollments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\enrollments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\enrollments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\enrollments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\controllers\\enrollmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\enrollments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\enrollments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|c:\\users\\vinhl\\source\\repos\\phao\\phao\\phao.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{48C76FA0-82FB-4A75-B38E-6B38B14EA28B}|phao\\phao.csproj|solutionrelative:phao\\phao.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Enrollments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Delete.cshtml",
+              "RelativeToolTip": "phao\\Views\\Enrollments\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T13:18:56.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "phao\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:10:19.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Create.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Enrollments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Create.cshtml",
+              "RelativeToolTip": "phao\\Views\\Enrollments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:20:39.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "phao\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:00:16.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Program.cs",
+              "RelativeDocumentMoniker": "phao\\Program.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Program.cs",
+              "RelativeToolTip": "phao\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:59:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "phao\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:14:00.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Index.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Enrollments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Index.cshtml",
+              "RelativeToolTip": "phao\\Views\\Enrollments\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T13:14:04.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "phao\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "phao\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv0gAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:01:46.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnrollmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Controllers\\EnrollmentsController.cs",
+              "RelativeDocumentMoniker": "phao\\Controllers\\EnrollmentsController.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Controllers\\EnrollmentsController.cs",
+              "RelativeToolTip": "phao\\Controllers\\EnrollmentsController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv4gAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:20:02.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "phao\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:23:21.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\Enrollments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\Enrollments\\Edit.cshtml",
+              "RelativeToolTip": "phao\\Views\\Enrollments\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T13:01:09.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\appsettings.json",
+              "RelativeDocumentMoniker": "phao\\appsettings.json",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\appsettings.json",
+              "RelativeToolTip": "phao\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-25T10:57:33.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "phao\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Models\\Enrollment.cs",
+              "RelativeToolTip": "phao\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:56:33.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "phao\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Models\\Course.cs",
+              "RelativeToolTip": "phao\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:56:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "phao\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "phao\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:57:05.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "phao\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "phao\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:14:45.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "phao",
+              "DocumentMoniker": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\phao.csproj",
+              "RelativeDocumentMoniker": "phao\\phao.csproj",
+              "ToolTip": "C:\\Users\\vinhl\\source\\repos\\phao\\phao\\phao.csproj",
+              "RelativeToolTip": "phao\\phao.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-25T10:56:12.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
